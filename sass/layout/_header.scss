@@ -1,0 +1,96 @@
+// header
+
+.header{
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: $border-header;
+}
+.header--container{
+    display: flex;
+    align-items: center;
+}
+
+
+// site-nav
+
+.site-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.site-nav__item{
+        &:last-child{
+            margin-right: 0;
+        }
+    margin-right: 50px;
+}
+
+.site-nav__link{
+    &:hover, &:focus{
+        color: $accent-color;
+        text-decoration: none;
+    }
+    position: relative;
+    color: $h-text-color;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding: 32px 0;
+    transition: color 250ms $timing-function;
+
+}
+.site-nav--current{
+        &::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        display: inline-block;
+        bottom: -1px;
+        left: 0;
+        background-color: $accent-color; 
+        border-radius: 2px;
+        }
+    color: $accent-color;
+    
+}
+
+
+// auth__nav
+
+.auth-nav{
+    display: flex;    
+    margin-left: auto;
+}
+.auth-nav__item{
+    &:last-child{
+        margin-right: 0;
+    }
+    margin-right: 50px;
+}
+
+.contact{
+    display: flex;
+    color: $primary-text-color;
+    fill: $primary-text-color;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact--header{
+    &:hover, &:focus{
+        color: $accent-color;
+        fill:  $accent-color;
+    }
+    padding: 32px 0;
+    transition: color 250ms $timing-function,
+    fill 250ms $timing-function
+}
+
+.auth-nav__item--svg{
+    padding-right: 10px;
+    
+}
+
+

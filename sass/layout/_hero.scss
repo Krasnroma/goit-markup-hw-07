@@ -1,0 +1,39 @@
+    // hero
+
+    .hero{
+        color: $primary-white-color;
+        background-color: $bg-color;
+        text-align: center;
+        padding-bottom: 200px;
+        padding-top: 200px;
+        text-align: center;
+        max-width: 1600px;
+        max-height: 600px;
+        background-image:
+            linear-gradient(
+                to right 
+                $acent-hero-rgba,
+                $acent-hero-rgba),
+            url(../images/Img\(17\).jpg)
+            ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .hero__text{
+        font-family: Roboto;
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+   
+    
+    
+    
