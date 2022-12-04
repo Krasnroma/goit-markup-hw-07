@@ -11,7 +11,7 @@ footer{
     margin-right: 70px;
 }
 .footer-adress__link{
-        &:hover, &focus{
+        &:hover,&:focus{
             color: $accent-color;
         }
     color: $primary-white-color;
@@ -59,7 +59,7 @@ footer{
     float: inline;
 }
 .footer__field__enter{
-    &:hover, &focus{
+    &:hover, &:focus{
         outline: $border-email-color-plus;
     }
     width: 358px;

@@ -10,12 +10,11 @@
         max-width: 1600px;
         max-height: 600px;
         background-image:
-            linear-gradient(
-                to right 
-                $acent-hero-rgba,
-                $acent-hero-rgba),
-            url(../images/Img\(17\).jpg)
-            ;
+        linear-gradient(
+            to right, 
+            $acent-hero-rgba,
+            $acent-hero-rgba),
+        url(../images/Img17.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
